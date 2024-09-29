@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "pygame-tensorflow"
+version = "0.1.0"
+description = ""
+authors = ["Mike Barkmin <mike@barkmin.eu>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.11.10"
+pygame = "^2.6.0"
+keras = "2.12"
+tensorflow = "2.12"
+pillow = "^10.4.0"
+numpy = "^1.22"
+opencv-python = "^4.10.0.84"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
